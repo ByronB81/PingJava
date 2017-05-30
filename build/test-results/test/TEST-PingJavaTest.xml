@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PingJavaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-05-30T17:17:02" hostname="Byrons-MacBook-Pro.local" time="0.002">
+  <properties/>
+  <testcase name="runPingJava_countUpToOne_ArrayList" classname="PingJavaTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
