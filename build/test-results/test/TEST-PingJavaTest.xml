@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PingJavaTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-05-30T17:25:14" hostname="Byrons-MacBook-Pro.local" time="0.002">
+<testsuite name="PingJavaTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-05-30T17:38:49" hostname="Byrons-MacBook-Pro.local" time="0.002">
   <properties/>
-  <testcase name="runPingJava_countToGivenNumber_ArrayList" classname="PingJavaTest" time="0.002"/>
-  <testcase name="runPingJava_countUpToOne_ArrayList" classname="PingJavaTest" time="0.0"/>
+  <testcase name="runPingJava_countToGivenNumber_ArrayList" classname="PingJavaTest" time="0.001"/>
+  <testcase name="runPingJava_countUpToOne_ArrayList" classname="PingJavaTest" time="0.001"/>
+  <testcase name="runPingJava_replaceMultiplesOf3_ArrayList" classname="PingJavaTest" time="0.0"/>
+  <testcase name="runPingJava_replaceMultiplesOf5_ArrayList" classname="PingJavaTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

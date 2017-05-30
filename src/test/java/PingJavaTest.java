@@ -32,4 +32,16 @@ public class PingJavaTest {
     assertEquals(expectedOutput, testPingJava.runPingJava(3));
   }
 
+  @Test
+  public void runPingJava_replaceMultiplesOf5_ArrayList() {
+    PingJava testPingJava = new PingJava();
+    List<Object> expectedOutput = new ArrayList<Object>();
+    expectedOutput.add(1);
+    expectedOutput.add(2);
+    expectedOutput.add("Ping");
+    expectedOutput.add(4);
+    expectedOutput.add("Pong");
+    assertEquals(expectedOutput, testPingJava.runPingJava(5));
+  }
+
 }
