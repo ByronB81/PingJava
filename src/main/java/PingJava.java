@@ -5,8 +5,9 @@ public class PingJava {
 
   public List<Object> runPingJava(int countTo) {
     List<Object> result = new ArrayList<Object>();
-    result.add(1);
-    return result;
+    for (int i = 1; i <= countTo; i++){
+    result.add(i);
   }
-
+  return result;
+  }
 }

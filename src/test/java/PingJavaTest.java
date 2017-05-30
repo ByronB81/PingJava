@@ -13,4 +13,23 @@ public class PingJavaTest {
     assertEquals(expectedOutput, testPingJava.runPingJava(1));
   }
 
+  @Test
+  public void runPingJava_countToGivenNumber_ArrayList(){
+    PingJava testPingJava = new PingJava();
+    List<Object> expectedOutput = new ArrayList<Object>();
+    expectedOutput.add(1);
+    expectedOutput.add(2);
+    assertEquals(expectedOutput, testPingJava.runPingJava(2));
+  }
+
+  @Test
+  public void runPingJava_replaceMultiplesOf3_ArrayList() {
+    PingJava testPingJava = new PingJava();
+    List<Object> expectedOutput = new ArrayList<Object>();
+    expectedOutput.add(1);
+    expectedOutput.add(2);
+    expectedOutput.add("Ping");
+    assertEquals(expectedOutput, testPingJava.runPingJava(3));
+  }
+
 }
