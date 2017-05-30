@@ -1,0 +1,14 @@
+apply pluginL 'java'
+apply plugin: 'application'
+
+archivesBaseName = "PingJava"
+version = '1.0'
+mainClassName = "App"
+
+repositories {
+  mavenCEntral()
+}
+
+dependencies {
+  testCompile group: 'junit', name: 'junit', version: '4.+''
+}
